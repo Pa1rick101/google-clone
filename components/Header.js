@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useRouter} from "next/router";
 import { useRef} from "react";
 import Avatar from "./Avatar";
+import HeaderOption from "./HeaderOptions";
 
 function Header() {
 
@@ -39,7 +40,7 @@ function Header() {
       <Avatar className="ml-auto" url="https://thecoinshark.net/uploads/750x500/2021/08/nft-from-cryptopunk-collection-was-mistakenly-sold-for-less-than-0.01.jpg"/>
       </div>
       
-      
+    <HeaderOption />
     </header>
   )
 }
